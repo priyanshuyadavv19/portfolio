@@ -32,8 +32,86 @@
       <h2 class="text-white text-5xl text-center font-bold mb-4">About me</h2>
       <p class="text-gray-400 text-base max-w-2xl mx-auto">Hi, I am Priyanshu Kumar Yadav, first year BS in AICS student at IIT Patna and have been learning web development for almost a year. I discovered web development and was drawn to how it combines logic with creativity. Now I have completed three frontend projects. My goal is to do remote frontend internship and then work as full stack developer.</p>
     </section>
-    <section id="skills"></section>
-    <section id="projects"></section>
+    <section id="skills" class="bg-gray-900 text-white py-16">
+      <h2 class="text-5xl text-center font-bold mb-4">Skills</h2>
+      <div class="grid grid-cols-2 gap-8 px-10">
+        <div class="bg-gray-800 rounded-xl p-6">
+          <h3 class="text-blue-400 font-semibold text-xl mb-3">Frontend</h3>
+          <ul class="flex flex-wrap gap-2">
+            <li class="border border-blue-600 text-gray-300 text-sm px-3 py-1 rounded-full">HTML</li>
+            <li class="border border-blue-600 text-gray-300 text-sm px-3 py-1 rounded-full">CSS</li>
+            <li class="border border-blue-600 text-gray-300 text-sm px-3 py-1 rounded-full">JavaScript</li>
+            <li class="border border-blue-600 text-gray-300 text-sm px-3 py-1 rounded-full">React</li>
+            <li class="border border-blue-600 text-gray-300 text-sm px-3 py-1 rounded-full">Tailwind CSS</li>
+          </ul>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6">
+          <h3 class="text-blue-400 font-semibold text-xl mb-3">Tools & others</h3>
+          <ul class="flex flex-wrap gap-2">
+            <li class="border border-blue-600 text-gray-300 text-sm px-3 py-1 rounded-full">Git</li>
+            <li class="border border-blue-600 text-gray-300 text-sm px-3 py-1 rounded-full">GitHub</li>
+            <li class="border border-blue-600 text-gray-300 text-sm px-3 py-1 rounded-full">VS Code</li>
+            <li class="border border-blue-600 text-gray-300 text-sm px-3 py-1 rounded-full">Vercel</li>
+            <li class="border border-blue-600 text-gray-300 text-sm px-3 py-1 rounded-full">Linux</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="bg-gray-800 py-16 text-white">
+      <h2 class="text-5xl text-center font-bold mb-4">Projects</h2>
+      <div class="grid grid-cols-3 gap-8 px-10">
+        <div class="bg-gray-900 rounded-xl p-6 flex flex-col">
+          <h3 class="font-bold text-xl mb-3">Weather App</h3>
+          <p class="text-gray-400 text-sm mb-4">A weather app which gives you the information about the current weather condition of a particular city in a beautiful card format.</p>
+          <ul class="flex flex-wrap gap-2 mb-4">
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">React</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">Vite</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">Tailwind CSS</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">Axios</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">OpenWeatherMap API</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">Flag CDN API</li>
+          </ul>
+          <div class="flex gap-3 mt-auto">
+            <a href="https://weather-app-five-theta-49.vercel.app/" target="_blank" 
+            class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-lg"
+            >Live Demo</a>
+            <a href="https://github.com/priyanshuyadavv19/weather-app" target="_blank"
+            class="border border-gray-500 hover:border-gray-300 text-gray-300 text-sm px-4 py-2 rounded-lg">View Repo</a>
+          </div>
+        </div>
+        <div class="bg-gray-900 rounded-xl p-6 flex flex-col">
+          <h3 class="font-bold text-xl mb-3">GitHub User Search</h3>
+          <p class="text-gray-400 text-sm mb-4">Github User Search will help you find useful information about Github users and their top 6 repos.</p>
+          <ul class="flex flex-wrap gap-2 mb-4">
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">React</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">Vite</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">Tailwind CSS</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">Axios</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">GitHub REST API</li>
+          </ul>
+          <div class="flex gap-3 mt-auto">
+            <a href="https://github-user-search-alpha-virid.vercel.app/" target="_blank"
+            class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-lg">Live Demo</a>
+            <a href="https://github.com/priyanshuyadavv19/github-user-search" target="_blank" class="border border-gray-500 hover:border-gray-300 text-gray-300 text-sm px-4 py-2 rounded-lg">View Repo</a>
+          </div>
+        </div>
+        <div class="bg-gray-900 rounded-xl p-6 flex flex-col">
+          <h3 class="font-bold text-xl mb-3">Task Manager</h3>
+          <p class="text-gray-400 text-sm mb-4">A task manager app built with React and Tailwind CSS that helps you add and manage tasks efficiently.</p>
+          <ul class="flex flex-wrap gap-2 mb-4">
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">React</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">Vite</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">Tailwind CSS</li>
+            <li class="border border-gray-600 text-gray-400 text-sm px-3 py-1 rounded-full">Web Storage API (localStorage)</li>
+          </ul>
+          <div class="flex gap-3 mt-auto">
+            <a href="https://task-manager-nine-blond-10.vercel.app/" target="_blank"
+            class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-lg">Live Demo</a>
+            <a href="https://github.com/priyanshuyadavv19/task-manager" target="_blank" class="border border-gray-500 hover:border-gray-300 text-gray-300 text-sm px-4 py-2 rounded-lg">View Repo</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="contact"></section>
   </main>
   <footer></footer>
