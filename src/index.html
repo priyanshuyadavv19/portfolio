@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <title>Priyanshu Kumar Yadav</title>
 </head>
 <body>
@@ -23,8 +24,8 @@
        Frontend developer who turns ideas into real, usable web experience which users love to use.
     </p>
     <div class="flex gap-4">
-      <a href="#projects" class="bg-blue-600 text-white rounded-lg px-4 py-2">View My Work</a>
-      <a href="#contact" class="ring-2 ring-blue-600 rounded-lg px-4 py-2 text-white">Contact me</a>
+      <a href="#projects" class="bg-blue-600 text-white rounded-lg px-4 py-2 hover:bg-blue-800">View My Work</a>
+      <a href="#contact" class="ring-2 ring-blue-600 hover:ring-blue-400 hover:text-gray-400 rounded-lg px-4 py-2 text-white">Contact me</a>
     </div>
   </header>
   <main>
@@ -112,7 +113,39 @@
         </div>
       </div>
     </section>
-    <section id="contact"></section>
+    <section id="contact" class="bg-gray-900 text-white py-16">
+      <h2 class="text-5xl text-center font-bold mb-4">Get In Touch</h2>
+      <p class="text-center text-sm text-gray-400 mb-3">Want to collaborate? Feel free to reach out!</p>
+      <form action="mailto:pky237917@gmail.com" method="POST" enctype="text/plain" class="bg-gray-800 max-w-xl mx-auto rounded-xl p-6">
+        <div class="flex flex-col gap-2 mb-2">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name....." required class="bg-gray-900 rounded-lg px-4 py-2 w-full outline-none focus:ring-2 focus:ring-blue-600">
+        </div>
+        <div class="flex flex-col gap-2 mb-2">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email...." required class="bg-gray-900 rounded-lg px-4 py-2 w-full outline-none focus:ring-2 focus:ring-blue-600">
+        </div>
+        <div class="flex flex-col gap-2 mb-6">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter your message..." rows="5" required class="bg-gray-900 rounded-lg px-4 py-2 w-full outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 hover:bg-blue-800 rounded-lg px-4 py-2 w-full">Submit</button>
+      </form>
+      <div class="flex gap-8 justify-center items-center py-12">
+        <a href="https://github.com/priyanshuyadavv19" target="_blank">
+          <i class="fa-brands fa-github text-3xl hover:text-blue-600"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/priyanshu-yadav-pky/" target="_blank">
+          <i class="fa-brands fa-linkedin text-3xl hover:text-blue-600"></i>
+        </a>
+        <a href="mailto:pky237917@gmail.com">
+          <i class="fa-solid fa-envelope text-3xl hover:text-blue-600"></i>
+        </a>
+        <a href="https://x.com/YadavvPriyanshu" target="_blank">
+          <i class="fa-brands fa-x-twitter text-3xl hover:text-blue-600"></i>
+        </a>
+      </div>
+    </section>
   </main>
   <footer></footer>
 </body>
