@@ -13,7 +13,7 @@ A personal portfolio website built with plain HTML, Tailwind CSS and vanilla Jav
 * JavaScript
 
 ## Screenshot
-*(screenshot coming soon)*
+<img width="1351" height="698" alt="portfolio1" src="https://github.com/user-attachments/assets/313bfa9e-8586-4140-8d75-c55e2850c512" />
 
 ## Live Demo
-[Coming soon]
+[Portfolio](https://priyanshukumaryadav.vercel.app/)
